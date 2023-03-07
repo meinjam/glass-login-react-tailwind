@@ -1,0 +1,32 @@
+// body {
+//   font-family: 'Poppins', sans-serif;
+// }
+
+section {
+  min-height: 100vh;
+}
+
+.nav-link.active {
+  text-decoration: underline;
+}
+
+#showcase {
+  background-image: url('../img/bg.svg');
+  background-position: -30rem -30rem;
+  background-size: 120%;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  align-items: center;
+
+  .card {
+    max-width: 588px;
+    background: rgb(255 255 255 / 50%);
+    backdrop-filter: blur(4px);
+    margin-left: auto;
+    border-radius: 20px;
+    padding: 80px;
+    box-shadow: 0 4px 60px 0 rgba(0, 0, 0, 0.2);
+  }
+}
