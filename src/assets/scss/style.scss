@@ -1,7 +1,3 @@
-// body {
-//   font-family: 'Poppins', sans-serif;
-// }
-
 section {
   min-height: 100vh;
 }
@@ -12,13 +8,17 @@ section {
 
 #showcase {
   background-image: url('../img/bg.svg');
-  background-position: -30rem -30rem;
+  background-position: -50rem -30rem;
   background-size: 120%;
   overflow: hidden;
   background-repeat: no-repeat;
   position: relative;
   display: flex;
   align-items: center;
+
+  @media screen and (max-width: 1400px) {
+    background-position: -40rem -30rem;
+  }
 
   .card {
     max-width: 588px;
