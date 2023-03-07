@@ -5,13 +5,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
 .section-title {
-  @apply text-[32px] font-bold leading-[48px];
+  @apply text-[32px] leading-[48px] font-bold;
 }
 
 .input {
-  @apply bg-bg-gray outline-0 border-0 rounded-[5px] px-4 py-[10px] w-full mt-[7px];
+  @apply outline-0 border-0 rounded-[5px] px-4 py-[10px] w-full mt-[7px] bg-bg-gray;
 }
 
 .input-placeholder {
-  @apply text-sm leading-[18px];
+  @apply leading-[18px] text-sm;
 }
