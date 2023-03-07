@@ -1,11 +1,8 @@
-import React, { useContext } from 'react';
-import StoreContext from '../context/StoreContext';
+import React from 'react';
 import BgImg from '../assets/img/bg.svg';
 import { TfiBag, TfiLock } from 'react-icons/tfi';
 
 const Home = () => {
-  const { isLoggedIn } = useContext(StoreContext);
-
   return (
     <section id='showcase' className='text-text-gray'>
       <div className='container py-10'>
